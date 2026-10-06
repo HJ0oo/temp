@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-label="주파수 대역별로 멀리 가는 정도와 한 번에 쓸 수 있는 폭을 비교한 막대 그림">
+  <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+  <g font-family="Apple SD Gothic Neo, Malgun Gothic, Noto Sans KR, sans-serif">
+    <text x="24" y="34" font-size="17" font-weight="bold" fill="#1a1a1a">높은 주파수: 폭은 넓지만 멀리 못 간다 (대략적인 예시 값)</text>
+
+    <!-- 왼쪽: 도달 거리 -->
+    <text x="24" y="68" font-size="14" font-weight="bold" fill="#1a1a1a">① 기지국에서 닿는 거리 (m)</text>
+    <g font-size="13" fill="#1a1a1a">
+      <text x="24" y="104">저대역 0.7GHz</text>
+      <text x="24" y="154">중대역 3.5GHz</text>
+      <text x="24" y="204">고대역 28GHz</text>
+    </g>
+    <rect x="130" y="86" width="180" height="26" fill="#d9e8f5" stroke="#5b8db8"/>
+    <rect x="130" y="136" width="90" height="26" fill="#eef1f4" stroke="#8a949e"/>
+    <rect x="130" y="186" width="20" height="26" fill="#f7e2e2" stroke="#c07777"/>
+    <g font-size="13" fill="#1a1a1a">
+      <text x="316" y="104">수 km (멀리 감)</text>
+      <text x="226" y="154">약 1 km 안팎</text>
+      <text x="156" y="204">약 수백 m 이하</text>
+    </g>
+
+    <!-- 오른쪽: 채널 폭 -->
+    <text x="420" y="68" font-size="14" font-weight="bold" fill="#1a1a1a">② 한 번에 쓰는 폭 (MHz)</text>
+    <rect x="420" y="86" width="12" height="26" fill="#d9e8f5" stroke="#5b8db8"/>
+    <rect x="420" y="136" width="60" height="26" fill="#eef1f4" stroke="#8a949e"/>
+    <rect x="420" y="186" width="240" height="26" fill="#f7e2e2" stroke="#c07777"/>
+    <g font-size="13" fill="#1a1a1a">
+      <text x="438" y="104">약 20 (좁음)</text>
+      <text x="486" y="154">약 100</text>
+      <text x="522" y="204">약 400 (넓음)</text>
+    </g>
+
+    <line x1="130" y1="236" x2="310" y2="236" stroke="#1a1a1a" stroke-width="1.5"/>
+    <text x="130" y="258" font-size="13" fill="#1a1a1a">거리 막대: 길수록 멀리 간다 (단위: m)</text>
+    <line x1="420" y1="236" x2="660" y2="236" stroke="#1a1a1a" stroke-width="1.5"/>
+    <text x="420" y="258" font-size="13" fill="#1a1a1a">폭 막대: 길수록 빠르다 (단위: MHz)</text>
+
+    <text x="24" y="300" font-size="13" fill="#444444">실제 값은 건물·지형·안테나에 따라 크게 달라진다. 경향(낮으면 멀리, 높으면 넓게)만 본다.</text>
+    <text x="24" y="320" font-size="13" fill="#444444">폭은 한 채널이 쓰는 일반적인 최대치 예시이다.</text>
+  </g>
+</svg>
